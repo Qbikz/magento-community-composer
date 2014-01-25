@@ -1,0 +1,31 @@
+{
+    "name": "platform-mirror/magento-community",
+    "type": "magento-module",
+    "license":"OSL-3.0",
+    "description":"Magento Community",
+    "authors":[
+        {
+            "name":"Roy Klopper",
+            "email":"r.klopper@qbikz.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+     "extra": {
+        "map": [
+            ["app", "app"],
+            ["errors", "errors"],
+            ["js", "js"],
+            ["lib", "lib"],
+            ["shell", "shell"],
+            ["skin/frontend/base", "skin/frontend/base"],
+            ["skin/adminhtml", "skin/adminhtml"],
+            ["api.php", "api.php"],
+            ["index.php", "index.php"],
+            ["get.php", "get.php"],
+            ["cron.php", "cron.php"],
+            ["install.php", "install.php"]
+        ]
+    }
+}
