@@ -19,7 +19,7 @@
             ["app/code/core", "app/code/core"],
             ["app/etc", "app/etc"],
             ["app/Mage.php", "app/Mage.php"],
-            ["app/locale/en_US", "app/locale/en_US"]
+            ["app/locale/en_US", "app/locale/en_US"],
             ["app/design/adminhtml/default/default", "app/design/adminhtml/default/default"],
             ["app/design/frontend/base/default", "app/design/frontend/base/default"],
             ["errors", "errors"],
