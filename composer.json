@@ -31,6 +31,7 @@
             ["index.php", "index.php"],
             ["get.php", "get.php"],
             ["cron.php", "cron.php"],
+            ["cron.sh", "cron.sh"],
             ["install.php", "install.php"]
         ]
     }
