@@ -20,7 +20,7 @@
  *
  * @category    Mage
  * @package     Mage_Cms
- * @copyright   Copyright (c) 2013 Magento Inc. (http://www.magentocommerce.com)
+ * @copyright   Copyright (c) 2014 Magento Inc. (http://www.magentocommerce.com)
  * @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
@@ -89,7 +89,7 @@ class Mage_Cms_Model_Wysiwyg_Images_Storage extends Varien_Object
         foreach ($collection as $key => $value) {
             $rootChildParts = explode(DIRECTORY_SEPARATOR, substr($value->getFilename(), $storageRootLength));
 
-            if (array_key_exists(end($rootChildParts), $conditions['plain'])
+            if (array_key_exists($rootChildParts[0], $conditions['plain'])
                 || ($regExp && preg_match($regExp, $value->getFilename()))) {
                 $collection->removeItemByKey($key);
             }
